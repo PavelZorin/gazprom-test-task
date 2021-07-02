@@ -1,0 +1,11 @@
+.header_text_table{
+text-align: left;
+font-size: 18px;
+color: #fff;
+height: 48px;
+background-color: rgb(147, 197, 218);
+margin-bottom: 45px;
+display: flex;
+align-items: center;
+padding-left: 10px
+}

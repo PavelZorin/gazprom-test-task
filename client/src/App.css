@@ -1,0 +1,57 @@
+
+.ant-menu:not(.ant-menu-horizontal) {
+  background-color: #dae4d2;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #eec590 !important;
+  margin-left: -10px;
+  border: #282c34 !important;
+  color: black !important;
+  /* opacity: 0.33!important; */
+
+}
+
+.ant-menu-submenu:nth-child(1){
+  margin-top: 50px;
+}
+
+.ant-layout-sider-light .ant-layout-sider-trigger {
+  color: rgba(0, 0, 0, 0.85);
+  background: rgb(147, 197, 218) !important;
+}
+
+.anticon-right {
+  padding-right: 15px;
+}
+
+.anticon-left {
+  padding-right: 15px;
+
+}
+
+.ant-layout-sider-trigger {
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ant-menu::before {
+  position: absolute;
+}
+
+.ant-menu::after {
+  position: absolute;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
