@@ -51,6 +51,7 @@ function MenuBar() {
         width={300}
       >
         <div className={style.menu} >Меню</div>
+        <hr>
         <Menu
           theme="light"
           defaultSelectedKeys={['1']}
